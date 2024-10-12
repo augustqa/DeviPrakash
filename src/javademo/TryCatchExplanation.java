@@ -7,7 +7,7 @@ public class TryCatchExplanation {
 		try
 		{
 		int[] numers = { 1, 2, 3, 4, 5 };
-		System.out.println(numers[8]);
+		System.out.println(numers[3]);
 		}
 		
 		catch(Exception e)

@@ -10,6 +10,10 @@ public class DebitCreditClass {
 	WebDriver driver;
   @Test
   public void debitcard() {
+	  driver.get("https://www.icici.com/");
+	  driver.findElement(By.xpath("username")).sendKeys("DeviPrasad");
+	  driver.findElement(By.xpath("password")).sendKeys("Hello@123");
+	  driver.findElement(By.xpath("button")).click();
   }
   
   @Test
